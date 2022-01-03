@@ -1,0 +1,326 @@
+body {
+    margin: 0px;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-green {
+    background-color: green;
+}
+.font-big {
+    font-size: 40px;
+}
+
+.font-mid {
+    font-size: 30px;
+}
+
+.font-small {
+    font-size: 20px;
+}
+
+.bg-blue {
+    background-color: royalblue;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.first_mainbackground {
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(180deg, skyblue, royalblue);
+    padding: royalblue;
+    display: flex;
+    overflow: hidden;
+}
+
+.first_h1 {
+    color: white;
+    text-align: center;
+    margin-top:100px;
+}
+
+.f_f_div {
+    width: 60%;
+    height: 100%;
+}
+
+.f_s_div {
+    width: 40%;
+    height: 100%;
+}
+
+.img_ipone {
+    width: 360px;
+    margin-top:210px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.first_p {
+    text-align: center;
+    color: white;
+}
+
+.first_button {
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 7px;
+    border: none;
+    background-color: dimgrey;
+    color: white;
+    font-size: 20px;
+}
+
+@media screen and (max-width:768px) {
+    .first_mainbackground {
+        width: 100%;
+        height: 700px;
+        background: linear-gradient(180deg, skyblue, royalblue);
+        padding: 1px;
+        display: block;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .img_ipone {
+    width: 265px;
+    margin-top:-337px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+.sec_mainbackground {
+    width:100%;
+    height:220px;
+}
+
+.sec_h4 {
+    text-align: center;
+    margin-top:40px;
+}
+
+.sec_p {
+    text-align: center;
+    margin
+}
+
+.thr_mainbackground {
+    width:100%;
+    height:470px;
+    background-color: royalblue;
+    padding:1px;
+    overflow:hidden;
+}
+
+.thr_p {
+    text-align: center;
+    margin-top:40px;
+    color:white;
+}
+
+.thr_h3 {
+    color:white;
+    text-align: center;
+    margin-top:-3px;
+}
+
+.subbackground {
+    margin-left:auto;
+    margin-right: auto;
+/*    background-color:;*/
+    width:60%;
+    height:170px;
+    display:flex;
+}
+
+.fontawesome {
+    width:25%;
+}
+
+.font-awesome {
+    font-size:40px;
+    color:royalblue;
+    padding:30px;
+    background-color: white;
+    border-radius:100000px;
+    margin-left:60px;
+    margin-top:10px;
+}
+
+.thr_mainbackground h6 {
+    color:white;
+/*    text-align: center;*/
+    margin-left:79px;
+}
+
+
+.font-m-small {
+    font-size:1px;
+}
+
+.thr_p_ {
+    color:white;
+/*    text-align: center;*/
+    margin-left:40px;
+    margin-top:-20px;
+}
+
+.four_mainbackground {
+    width:100%;
+    height:130px;
+}
+
+.four_p {
+/*    color:white;*/
+    text-align: center;
+    margin-top:50px;
+}
+
+.four_h5 {
+    text-align: center;
+    margin-top:-30px;
+}
+
+.five_mainbackground {
+/*    background-color: aquamarine;*/
+    width:80%;
+    height:700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.five_subbackground {
+    width:100%;
+    height:100%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 0.5s 
+}
+
+.five_half_background {
+    width:100%;
+    height:50%;
+    display: flex;
+}
+
+.first_divbox {
+    background-image: url(portfolio-1.jpg);
+    filter:brightness(70%)
+}
+
+.second_divbox {
+    background-image: url(portfolio-2.jpg)
+}
+
+.img_1 {
+    width:100%;
+    filter:brightness(60%);
+/*    float:left;*/
+}
+
+.five_h2 {
+/*    float:left;*/
+    color:white;
+    margin-left:60px;
+}
+
+.bg-img1 {
+    background-image: url(portfolio-1.jpg)
+}
+
+.animate_background1 {
+    width:50%;
+    height:100%;
+}
+
+.five_subbackground:hover {
+    width:80%;
+    height:80%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:35px;
+
+}
+
+.animate_background2 {
+    width:50%;
+    height: 100%;
+}
+
+.bg-img2 {
+    background-image: url(portfolio-2.jpg)
+}
+
+.bg-img3 {
+    background-image: url(portfolio-3.jpg)
+}
+
+.bg-img4 {
+    background-image: url(portfolio-4.jpg)
+}
+
+.six_mainbackground {
+    width:100%;
+    height: 175px;
+}
+
+.six_btn {
+    background-color:royalblue;
+}
+
+.google {
+    color:white;
+    background-color: royalblue;
+    padding:20px;
+    border-radius: 1000px;
+    font-size: 30px;
+}
+
+.ridwldjakwlakrdldi {
+    margin-left:43%;
+    margin-top:2.5%;
+}
+
+.ahffkridgo {
+    margin-left:0.8%
+}
+
+.akwlakrdldi {
+    margin-left:0.8%
+}
+
+.google_div {
+    margin-left:auto;
+    margin-right: auto;
+    display: block;
+    width:13%;
+    margin-top:3%
+}
+
+.RMxskTekdk {
+    text-align: center;
+    margin-top:5%;
+    color:grey;
+}
